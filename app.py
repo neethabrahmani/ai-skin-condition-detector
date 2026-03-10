@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 load_dotenv()
 import streamlit as st
 import base64
-from groq import clientGroq
+from groq import Groq
 from PIL import Image
 import io
 import re
